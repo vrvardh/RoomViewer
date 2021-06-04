@@ -1,0 +1,49 @@
+{
+  "rooms": {
+    "kitchen": {
+      "views": {
+        "north": "images/kitchen-north.jpg",
+        "east": "images/kitchen-east.jpg",
+        "south": "images/kitchen-south.jpg",
+        "west": "images/kitchen-west.jpg"
+      },
+      "exits": {
+        "north": "bedroom",
+        "east": "hall"
+      },
+      "contents": []
+    },
+    "hall": {
+      "views": {
+        "north": "images/hall-north.jpg",
+        "east": "images/hall-east.jpg",
+        "south": "images/hall-south.jpg",
+        "west": "images/hall-west.jpg"
+      },
+      "exits": {
+        "west": "kitchen"
+      },
+      "contents": []
+    },
+    "bedroom": {
+      "views": {
+        "north": "images/bedroom-north.jpg",
+        "east": "images/bedroom-east.jpg",
+        "south": "images/bedroaom-south.jpg",
+        "west": "images/bedroom-west.jpg"
+      },
+      "exits": {
+        "west": "kitchen"
+      },
+      "contents": []
+    }
+  },
+  "items": {
+    "marshal": {
+      "image": "images/Marshal.png"
+    },
+    "headphones": {
+      "image": "images/Headphones.png"
+    }
+  }
+}
